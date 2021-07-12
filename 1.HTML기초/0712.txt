@@ -1,0 +1,48 @@
+조상, 후손
+
+F2 이름바꾸기 파일확장명
+
+저장 ctrl + s
+
+ye =>ctrl + space yellowgreen
+
+emmet 문법 h$*6하고 tab  $r는 sequence
+
+h1 글자크기를 크게 하고 싶은 것이 아니고 구조를 만드는 것! 
+h1=제일 중요한 제목
+h1이 없는데 h2는 x
+순차적으로
+h1 다음 h3는 ㄴㄴh2
+
+seo 검색엔진
+
+alt + shift + 방향키 밑 (복사)
+
+hr은 문단 사이에만 넣어야 함!
+문단과 문단을 구분 짓는
+줄이 필요해서 넣으면 ㄴㄴㄴ 
+
+3강 태크 전부 인라인!
+
+주석은 ctrl + /
+
+git bash 상대경로 내가 있는 위치에서 파일 찾는
+ $ cd ../html_css_study/
+
+./는 생략이 가능
+
+java4@kitt-34 MINGW64 /d/isec_abc/html_css_study (master)
+$ cd ../..
+
+java4@kitt-34 MINGW64 /d
+$
+
+
+절대경로 
+
+java4@kitt-34 MINGW64 /d
+$ cd d:isec_abc/
+처음부터 작성
+
+
+강조태그 abbr,b,mark,em,strong
