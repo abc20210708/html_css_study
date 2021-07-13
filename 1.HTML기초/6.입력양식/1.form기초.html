@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+        <!-- action 뭘 주문 하는거니 // /login 요청 url-->
+    <form action="/login" method="POST" autocomplete="off"
+    novalidate>
+        <!-- 자동완성 쓸 땐 on -->
+        <!-- novalidate는 검증을 안함. email을 안 써도 넘어감 -->
+        <!-- post 주소창에 안 남음 , get 주소창에 남음 -->
+        <!-- input 닫는 태그 없음 -->
+        <input type="email" name="id" placeholder="아이디를 입력하세요 :)">
+        <input type="password" name="pw" placeholder="비밀번호를 입력하세요 :)">
+        <button type="submit">로그인</button>
+    </form>
+
+    
+</body>
+</html>
