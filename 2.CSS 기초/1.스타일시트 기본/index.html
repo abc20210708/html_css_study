@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 내부 스타일 시트 ,현재 페이지를 벗어나면 스타일 적용 x이 문서에만 먹힘-->
+    <style>
+        h1 {
+            font-style: italic;
+        }
+        div {
+            background: aqua;
+        }
+    </style>
+
+    <!-- 외부 스타일 시트 (로딩하는)  -->
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+<body>
+   
+    <h1>개구쟁이 뽀로로</h1>
+    <div>HELLO</div>
+
+    <!-- 유지,보수에 치명적 -->
+    <p style="color: orange; background: orangered; font-size: 30px;">
+        아니 인라인 스타일 쓰지 말라구요 
+    </p>
+
+    <p style="color: orange; background: orangered; font-size: 30px;">
+        재활용 안 됨
+    </p>
+
+
+</body>
+</html>
