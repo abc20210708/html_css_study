@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        div {
+            /* color: red !important; */
+        }
+
+        #c-y {
+            color: yellow ;
+        }
+
+        .c-g {
+            color: green ;
+        }
+
+        div {
+            color: blue ;
+        }
+
+        body {
+            color: aqua; 
+        }
+
+        #aaa .bbb h1 {
+            color: gray;
+            /* 111 */
+        }
+
+        div#aaa div.bbb h1 {
+            color: pink;
+            /* 113 */
+        }
+
+        .bbb h1 {
+            color: orangered;
+            /* 11 */
+        }
+
+        div#aaa .bbb h1 {
+            color: greenyellow;
+            /* 112 */
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div id="c-y" class="c-g" style="color:orange">HELLO</div>
+
+    <div id="c-y" class="c-g">HELLO2</div>
+
+    <div class="c-g">HELLO2</div>
+
+    <div>HELLO4</div>
+
+    <p>HELLO5</p>
+
+
+    <!--  #aaa>.bbb>h1 -->
+    <div id="aaa">
+        <div class="bbb">
+            <h1>메롱메롱</h1>
+        </div>
+    </div>
+</body>
+</html>
