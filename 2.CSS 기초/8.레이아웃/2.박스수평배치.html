@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,6 @@
     <title>Document</title>
 
     <style>
-
         .box {
             width: 150px;
             height: 100px;
@@ -26,39 +26,43 @@
         }
 
         /* n앞의 숫자로 열을 제어함
-         ex) 3열 레이아웃 - 3n + 1 */
+         /* ex) 3열 레이아웃 - 3n + 1 */
         .box:nth-child(3n + 1) {
             /* 클리어하는 순간 수평배치가 풀림
             방향 상관 없이 해제 both */
-            clear: both;
+            clear: both; 
         }
 
-
-
-
-      
-
+        .container {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
     </style>
 
 
 </head>
+
 <body>
 
-    <!-- .box{$}* -->
-    <div class="box">1</div>
-    <div class="box">2</div>
-    <div class="box">3</div>
-    <div class="box">4</div>
-    <div class="box">5</div>
-    <div class="box">6</div>
-    <div class="box">7</div>
-    <div class="box">8</div>
-    <div class="box">9</div>
-    <div class="box">10</div>
-    <div class="box">11</div>
-    <div class="box">12</div>
+    <div class="container">
+        <!-- .box{$}* -->
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+        <div class="box">11</div>
+        <div class="box">12</div>
 
+    </div>
 
-    
 </body>
+
 </html>

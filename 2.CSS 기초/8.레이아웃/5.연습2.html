@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* reset */
+        ul, li {
+            margin: 0;
+            padding: 0;
+            /* li 태그 앞에 있는 점 제거 */
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+
+        /* layout */
+        nav {
+            background: tomato;
+        } 
+        
+        nav ul.gnb {
+            width:70%;
+            margin: 0 auto;
+           
+        }
+
+        nav ul.gnb li {
+            
+            box-sizing: border-box;
+            width: 20%;
+            float: left;
+            padding-bottom: 8px;
+            text-align: center;
+        }
+
+        nav ul.gnb li a {
+           
+        }
+
+        nav ul.gnb li:hover {
+           border-bottom: 3px solid crimson;
+
+        }
+       
+       
+        .clearfix::after {
+            content: '';
+            clear: both;
+            display: block;
+        }
+
+/* 
+        연습
+        li {
+            float: left;
+            margin-right: 30px;
+            
+           
+        }
+
+        li:hover {
+            border-bottom: 3px solid red;
+           width: 50px;
+            /* 애니메이션 시간 조절*/
+            transition: 0.7s;
+        }
+
+        
+        .clearfix::after {
+            content: '';
+            clear: both;
+            display: block;
+        } */
+
+
+
+    </style>
+
+
+</head>
+<body>
+
+    <nav>
+        <!-- ul.gnb>li*5> -->
+        <ul class="gnb">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">BOARD</a></li>
+            <li><a href="#">LOGIN</a></li>
+            <li><a href="#">JOIN</a></li>
+        </ul>
+    </nav>
+
+    
+</body>
+</html>
