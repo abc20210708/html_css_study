@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .box {
+            width: 100px;  
+            height: 100px;
+            background: red;
+            margin: 50px;
+/*             
+            transition-property: all;
+            transition-duration: 1.5s; */
+            /* transition: all 1.5s; */
+            /* transition: width 1.5s; background: 0.5s; */
+
+            /* transition: 1.2s;
+            transition-delay: 1s;
+            한줄로 쓴다면 */
+            /* transition:width 1.2s 1s; */
+
+            /* transition: 3s; */
+            /* transition-timing-function: linear; */
+
+            transition: width 1.2s 0.5s linear;
+
+            /* 1.2s linear-->delay없이 ,기본값*/
+        }
+
+        .box:hover {
+            width: 300px;
+            background: skyblue;
+
+        }
+
+
+
+    </style>
+
+    
+</head>
+<body>
+
+    <div class="box"></div>
+
+    
+</body>
+</html>  
