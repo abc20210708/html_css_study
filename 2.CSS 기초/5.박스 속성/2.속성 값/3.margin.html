@@ -9,11 +9,10 @@
     <style>
 
         .container {
-            width: 400px;
-            height: 300px;
+            width: 400px;height: 300px;
             border: 4px solid red;
-            margin-top: 100px;
-            margin-left: 50px;
+            /* margin-top: 100px;
+            margin-left: 50px; */
         }
 
         .box {
@@ -23,7 +22,7 @@
         }
 
         .box:nth-child(2) {
-            margin-top: 20px;
+            margin-top: 20px;    
         }
 
         header {
@@ -32,38 +31,21 @@
         }
 
         .inner {
-            /* w70p */
             width: 80%;
             height: 100%;
             background: orange;
-            /* 마진 좌우 값을 auto로 설정하면
-            박스가 좌우 중앙정렬된다. */
-            /* margin-left: auto;
-            margin-right: auto;  */
-            margin: 0 auto;
+
+           margin: 0 auto;
+
         }
 
         .item {
-            width: 300px;   
+            width: 300px;
             height: 300px;
             background: tomato;
-
-            /* 단축속성 
-            상하좌우 모두 50px씩
-            마진이 부여된다.*/
             margin: 50px;
-
-            /* 위 아래 50px, 좌우 100px */
-            margin: 50px 100px;
-
-            /* 위, 좌우, 아래 */
-            margin: 50px 100px 70px;
-
-            /* 위에서부터 시계방향으로 적용
-            top, right, bottom, left
-            위 오른 아래 왼 */
-            margin: 10px 20px 30px 40px;
         }
+        
 
     </style>
 

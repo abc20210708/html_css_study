@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            border: 4px solid #000;
+            display: flex;
+            /* 기본값 , 수평정렬 
+            flex-direction: row;
+            다시 수직? column으로 */
+            /* flex-direction: row;
+            flex-wrap: wrap; */
+            flex-flow: row wrap;
+            /* column ,height: 800px; */
+            /* 모든사이사이 공백을 균일하게
+            justify-content: space-evenly; */
+            /* 주축정렬!  
+             /* 수직 상하정렬
+            수평은 좌우정렬 */
+            justify-content: flex-end;
+        }
+
+        .item {
+            width: 150px;
+            height: 100px; 
+            background: red;
+            border: 4px solid orange;
+            border-radius: 10px;
+            font-size: 40px;
+        }
+
+        
+    </style>
+
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+    </div>
+
+</body>
+</html>
